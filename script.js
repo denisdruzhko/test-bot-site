@@ -2,12 +2,9 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 
-let btn = document.querySelector('#btn');
+let btn = document.querySelector('input[type=button]');
 
-tg.MainButton.textColor = "#FFFFFF";
-tg.MainButton.color = "#FF00FF";
-
-btn.addEventListener("click", function(){
+btn.addEventListener("click", ()=> {
         tg.MainButton.setText("Message was sent");
         tg.MainButton.show();
         tg.sendData("some data");
