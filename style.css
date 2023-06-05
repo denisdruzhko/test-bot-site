@@ -3,11 +3,12 @@ body{
         background-color: var(--tg-theme-bg-color);
 }
 
+.container{
+        background-color: var(--tg-theme-secondary-bg-color);
+        border-radius: 8px;
+}
+
 input[type=button]{
         color: var(--tg-theme-button-text-color);
         background-color: var(--tg-theme-button-color);
-}
-
-input[type=button]:hover{
-        background: var(--tg-theme-secondary-bg-color);
 }
