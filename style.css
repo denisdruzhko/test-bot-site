@@ -3,11 +3,11 @@ body{
         background-color: var(--tg-theme-bg-color);
 }
 
-button{
+input[type=button]{
         color: var(--tg-theme-button-text-color);
         background-color: var(--tg-theme-button-color);
 }
 
-button:hover{
+input[type=button]:hover{
         background: var(--tg-theme_secondary-bg-color);
 }
