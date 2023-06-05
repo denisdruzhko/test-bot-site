@@ -9,5 +9,5 @@ input[type=button]{
 }
 
 input[type=button]:hover{
-        background: var(--tg-theme_secondary-bg-color);
+        background: var(--tg-theme-secondary-bg-color);
 }
