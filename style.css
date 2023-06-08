@@ -3,12 +3,22 @@ body{
         background-color: var(--tg-theme-bg-color);
 }
 
-.container{
-        background-color: var(--tg-theme-secondary-bg-color);
-        border-radius: 8px;
+.card-container {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.card {
+    border-radius: 10px;
 }
 
 input[type=button]{
         color: var(--tg-theme-button-text-color);
         background-color: var(--tg-theme-button-color);
+}
+
+input[type=button]:hover{
+        background: var(--tg-theme_secondary-bg-color);
 }
