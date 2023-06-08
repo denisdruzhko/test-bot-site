@@ -11,11 +11,12 @@ body{
 }
 
 .card {
-    border-radius: 10px; 
+    border-radius: 10px;
     background-color: var(--tg-theme-bg-color);
 }
 
 input[type=button]{
+        width: 200px;
         color: var(--tg-theme-button-text-color);
         background-color: var(--tg-theme-button-color);
 }
