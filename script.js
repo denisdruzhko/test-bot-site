@@ -5,5 +5,5 @@ tg.expand();
 let btn = document.querySelector('input[type=button]');
 
 btn.addEventListener("click", ()=> {
-        tg.sendData(document.querySelector('input[type=time]').value+"|"+document.querySelector('select').value);
+        tg.sendData(document.querySelector('input[type=time]').value+"|"+document.querySelector('select').value+"|"+document.querySelector('#members').value+"|"+document.querySelector('#price').value);
 })
