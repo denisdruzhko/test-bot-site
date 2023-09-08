@@ -20,7 +20,7 @@ body{
     background-color: var(--tg-theme-secondary-bg-color)
 }
 
-input{
+input, select{
         width: 200px;
 }
 
