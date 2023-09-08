@@ -20,8 +20,8 @@ body{
     background-color: var(--tg-theme-secondary-bg-color)
 }
 
-input, select{
-        width: 200px;
+input, select, option{
+        width: 300px;
 }
 
 input[type=button]{
