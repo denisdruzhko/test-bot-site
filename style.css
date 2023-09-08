@@ -20,6 +20,10 @@ body{
     background-color: var(--tg-theme-secondary-bg-color)
 }
 
+h3{
+        text-align: center;
+}
+
 input, select, option{
         width: 300px;
 }
